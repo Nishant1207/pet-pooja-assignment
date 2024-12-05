@@ -1,0 +1,22 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  .validation-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  

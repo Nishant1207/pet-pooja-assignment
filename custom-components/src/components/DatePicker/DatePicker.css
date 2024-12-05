@@ -1,0 +1,36 @@
+.date-picker-container {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .preset-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .preset-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .preset-button.active {
+    background-color: #0056b3;
+  }
+  
+  .custom-date-range {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
